@@ -1,5 +1,7 @@
 # 😍 [TailwindCSS 2.x](https://tailwindcss.com/) with [Snowpack](https://www.snowpack.dev/) Setup
 
+# 👉 Subscribe to My Channel [💙❤️Youtube❤️💙](https://www.youtube.com/channel/UCpOHt5d6GG-mvo-_pU06rhQ?sub_confirmation=1)
+
 # 😞 Important Note
 
 The setup was slow when I used the [tailwind directives](https://tailwindcss.com/docs/functions-and-directives) like [@apply](https://tailwindcss.com/docs/functions-and-directives#apply) inside the `CSS files`
@@ -148,3 +150,5 @@ npm run build
 ```
 
 which creates a build folder.
+
+Made with ❤️ - by [FrontEndFunn](https://www.youtube.com/channel/UCpOHt5d6GG-mvo-_pU06rhQ?sub_confirmation=1)
