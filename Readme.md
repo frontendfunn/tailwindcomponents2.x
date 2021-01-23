@@ -121,6 +121,7 @@ Steps to Follow
 ```
 
 - Add `index.css` to `index.html` using
+
   ```
    <link rel="stylesheet" href="index.css" />
   ```
