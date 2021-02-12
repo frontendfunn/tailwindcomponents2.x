@@ -1,14 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontendfunn - Snowpack Tailwindcss Setup</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <div class="bg-red-100 text-red-500 p-5 font-bold uppercase text-center">
-      Snowpack Tailwindcss Setup - Made with ❤ by Frontendfunn
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontendfunn - Snowpack Tailwindcss Setup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css"
+    integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-okaidia.min.css"
+    integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <div class="container mx-auto my-2 rounded bg-white border border-gray-200">
+    <h1 class="p-4 border-b
+    border-gray-200">Navigation Menu</h1>
+    <!-- content -->
+    <div class="bg-gray-100 p-1">
+      <div class="p-1">
+        <!-- preview -->
+        <div>
+          <nav class="navbar bg-white lg:flex flex items-center p-4 flex-wrap">
+            <!-- brand -->
+            <a href="#" class="p-3 font-bold text-indigo-600 uppercase tracking-wide">Frontendfunn</a>
+
+            <!-- button -->
+            <button id="navbar-trigger" data-target="#nav-menu"
+              class="my-1 w-12 border border-indigo-600 rounded p-1 lg:hidden inline-flex flex-col justify-around ml-auto">
+              <span class="h-1 w-2/3 mt-1 mx-auto rounded bg-indigo-600 flex"></span>
+              <span class="h-1 w-2/3 my-1 mx-auto rounded bg-indigo-600 flex"></span>
+              <span class="h-1 w-2/3 mb-1 mx-auto rounded bg-indigo-600 flex"></span>
+            </button>
+            <!-- menu -->
+            <ul class="navbar-menu hidden lg:ml-auto flex-col lg:inline-flex lg:flex-row  w-full lg:w-auto"
+              id="nav-menu">
+              <li class="mx-1">
+                <a href="#" class="p-3 flex lg:inline-flex text-indigo-600 hover:text-indigo-900">Solution</a>
+              </li>
+              <li class="mx-1">
+                <a href="#" class="p-3 flex lg:inline-flex text-indigo-600 hover:text-indigo-900">Pricing</a>
+              </li>
+              <li class="mx-1">
+                <a href="#" class="p-3 flex lg:inline-flex text-indigo-600 hover:text-indigo-900">Docs</a>
+              </li>
+              <li class="mx-1">
+                <a href="#" class="p-3 flex lg:inline-flex text-indigo-600 hover:text-indigo-900">More</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- code -->
+        <div>
+          <script type="text/plain" class="language-markup">
+<nav class="navbar bg-white lg:flex flex items-center p-4 flex-wrap">
+	<a href="#" class="p-3 font-bold text-indigo-600 uppercase tracking-wide"> Frontendfunn </a>
+	<button class="my-1 w-12 border border-indigo-600 rounded p-1 lg:hidden inline-flex flex-col justify-around ml-auto" >
+		<span class="h-1 w-2/3 mt-1 mx-auto rounded bg-indigo-600 flex"></span>
+		<span class="h-1 w-2/3 my-1 mx-auto rounded bg-indigo-600 flex"></span>
+		<span class="h-1 w-2/3 mb-1 mx-auto rounded bg-indigo-600 flex"></span>
+	</button>
+	<ul class="navbar-menu lg:ml-auto flex flex-col lg:inline-flex lg:flex-row w-full lg:w-auto" >
+		<li class="mx-1">
+			<a href="#" class="p-3 flex lg:inline-flex text-indigo-600 hover:text-indigo-900" > Solution </a>
+		</li>
+		<li class="mx-1">
+			<a href="#" class="p-3 flex lg:inline-flex text-indigo-600 hover:text-indigo-900" > Pricing </a>
+		</li>
+		<li class="mx-1">
+			<a href="#" class="p-3 flex lg:inline-flex text-indigo-600 hover:text-indigo-900" > Docs </a>
+		</li>
+		<li class="mx-1">
+			<a href="#" class="p-3 flex lg:inline-flex text-indigo-600 hover:text-indigo-900" > More </a>
+		</li>
+	</ul>
+</nav>
+    </script>
+        </div>
+      </div>
     </div>
-  </body>
+    <h1 class="p-4 border-t
+    border-gray-200">by <a href="#" class="text-indigo-600">Frontendfunn</a></h1>
+  </div>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"
+    integrity="sha512-YBk7HhgDZvBxmtOfUdvX0z8IH2d10Hp3aEygaMNhtF8fSOvBZ16D/1bXZTJV6ndk/L/DlXxYStP8jrF77v2MIg=="
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/unescaped-markup/prism-unescaped-markup.min.js"
+    integrity="sha512-HLGEkAJpy4x6+5YvKMTlo7Xyz2MgA/+4nJEsIOaM9b+LjLDvpsay+0EpUmSNVeopbCaT5Fptwhbc0y+pUFBPqg=="
+    crossorigin="anonymous"></script>
+  <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-markup.min.js"
+      integrity="sha512-nUP/WSlIWefahvwVkJlGT0ISR4X0kTok8yX28HovQ1AO9je2bfv1d9Ye0aU42E3PivSAJNMDem5+DdlGmA2dkA=="
+      crossorigin="anonymous"
+    ></script> -->
+  <script src="./index.js"></script>
+</body>
+
 </html>
