@@ -1,7 +1,5 @@
 # 😍 [TailwindCSS 2.x](https://tailwindcss.com/) Components
 
-# 👉 [preview](https://frontendfunn.github.io/tailwindcomponents2.x/)
-
 😊 Clone this repo
 
 - Install Packages
